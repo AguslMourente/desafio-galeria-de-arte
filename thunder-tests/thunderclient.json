@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "8fd28cee-b855-4244-8fff-972830e29710",
+    "colId": "66593e1e-7e84-4334-958f-3b38ea7bfa7d",
+    "containerId": "",
+    "name": "Test Endpoint",
+    "url": "http://localhost:6005/api/test",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-12-02T15:12:42.037Z",
+    "modified": "2022-12-02T15:12:57.538Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]

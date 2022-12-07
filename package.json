@@ -1,0 +1,30 @@
+{
+  "name": "desafio-galeria-de-arte",
+  "version": "0.1.0",
+  "private": true,
+  "repository": {
+    "url": "https://github.com/apx-school/desafio-galeria-de-arte"
+  },
+  "scripts": {
+    "dev": "next dev -p 6301",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "^13.0.6",
+    "@sanity/client": "^3.4.1",
+    "@types/node": "18.11.10",
+    "@types/react": "18.0.25",
+    "@types/react-dom": "18.0.9",
+    "clsx": "^1.2.1",
+    "constate": "^3.3.2",
+    "keen-slider": "^6.8.5",
+    "next": "^13.0.6",
+    "radash": "^9.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-feather": "^2.0.10",
+    "typescript": "4.9.3"
+  }
+}
