@@ -6,7 +6,7 @@
 
 La aplicación tiene dos partes:
 
-- El back: que nos deja administrar fotos y agregarle tags
+- El back: Un admin que nos deja administrar fotos y agregarle tags
 - El front: Una webapp que nos permita ver todos los tags y navegar fotos del tag seleccionado.
 
 ## Sobre el admin
