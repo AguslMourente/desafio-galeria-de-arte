@@ -27,4 +27,6 @@ https://www.figma.com/file/fTwmHlt3i7hYoGQT5pXDkT/Galer%C3%ADa-de-arte?node-id=0
 
 En la parte inferior se deben mostrar todos los tags disponibles y al hacer click en alguno de los tags el carrousel de arriba debe mostrar las fotos perteneciente a ese tag.
 
+También van a ver en la parte inferior derecha un selector de colores (esto debe cambiar el color de fondo del carrousel) y unos links para que pongan lo que quieran. Si quieren dejar el link de apx, joya.
+
 Pueden usar cualquier framework (React, Vue, Svelte, etc) o ningún framework.
