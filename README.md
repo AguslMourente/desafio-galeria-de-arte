@@ -1,5 +1,9 @@
 # Desafío de código: Galeria de arte
 
+![image](https://user-images.githubusercontent.com/1208547/206236009-b7f37f58-6103-4a6d-838a-02d5ef38698b.png)
+
+# Estructura general
+
 La aplicación tiene dos partes:
 
 - El back: que nos deja administrar fotos y agregarle tags
