@@ -22,13 +22,13 @@ las fotos y sus tags. Algunas opciones:
 
 Cada foto debe tener como mínimo 3 datos
 
-`ts
+```ts
 Photo {
   title: string;
   imageURL: string;
   tags: string[];
 }
-`
+```
 
 Cada sistema tiene su forma de administrar imagenes y tags asi que tomen este esquema solo como un ejemplo.
 
