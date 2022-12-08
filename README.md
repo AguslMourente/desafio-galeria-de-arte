@@ -23,7 +23,7 @@ las fotos y sus tags. Algunas opciones:
 Cada foto debe tener como mínimo 3 datos
 
 ```ts
-Photo {
+interface Photo {
   title: string;
   imageURL: string;
   tags: string[];
