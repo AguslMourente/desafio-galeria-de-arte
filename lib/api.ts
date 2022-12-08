@@ -1,12 +1,20 @@
-import { sanityClient } from "./sanity";
+import { sanityClient, urlFor } from "./sanity";
 import { memo } from "radash";
 const oneDay = 24 * 60 * 60 * 1000;
 
 export const getPhotosByTag = memo(
   async function (tag): Promise<any[]> {
-    return sanityClient.fetch(`*[_type == "photo" && $tag in tags[].label]`, {
-      tag,
-    });
+    const photos = await sanityClient.fetch(
+      `*[_type == "photo" && $tag in tags]`,
+      {
+        tag,
+      }
+    );
+
+    return photos.map((p) => ({
+      ...p,
+      imageURL: urlFor(p.image),
+    }));
   },
   {
     ttl: oneDay,
@@ -14,10 +22,7 @@ export const getPhotosByTag = memo(
 );
 
 interface Photo {
-  tags: {
-    label: string;
-    value: string;
-  }[];
+  tags: string[];
 }
 
 export const getTags = memo(
@@ -29,9 +34,9 @@ export const getTags = memo(
     const tags: { [tag: string]: number } = {};
 
     photos.forEach((p) => {
-      p.tags.forEach((t: { label: string }) => {
-        tags[t.label] ||= 0;
-        tags[t.label]++;
+      p.tags.forEach((t) => {
+        tags[t] ||= 0;
+        tags[t]++;
       });
     });
 

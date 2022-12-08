@@ -46,7 +46,7 @@ export function PhotoViewer({ photos = [] }) {
             >
               <img
                 style={{ height: "100%" }}
-                src={resizeCloudinaryURL(p.url)}
+                src={p.imageURL}
                 alt={p.title || "Photo"}
               />
             </div>
