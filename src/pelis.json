@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "El señor de los anillos",
+    "tags": [
+      "fantasy",
+      "adventure"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Pulp Fiction",
+    "tags": [
+      "crime",
+      "drama"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Shrek",
+    "tags": [
+      "comedy",
+      "family"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Matrix",
+    "tags": [
+      "action",
+      "sci-fi"
+    ]
+  }
+]
